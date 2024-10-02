@@ -1,6 +1,6 @@
 {
   "name": "task-with-time-limit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A utility to execute tasks with a maximum execution time limit.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/task-with-time-limit.git"
+    "url": "https://github.com/drszav/Task-With-Time-Limit.git"
   },
   "keywords": [
     "task",
