@@ -1,0 +1,30 @@
+{
+  "name": "task-with-time-limit",
+  "version": "1.0.0",
+  "description": "A utility to execute tasks with a maximum execution time limit.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/task-with-time-limit.git"
+  },
+  "keywords": [
+    "task",
+    "timeout",
+    "promise",
+    "utility",
+    "lambda",
+    "cloud function",
+    "execution time",
+    "google cloud function",
+    "aws lambda",
+    "microservice",
+    "nodejs",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Szavio Petrus Raaum",
+  "license": "MIT"
+}
