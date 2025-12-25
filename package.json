@@ -1,9 +1,18 @@
 {
   "name": "task-with-time-limit",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A utility to execute tasks with a maximum execution time limit.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
@@ -26,5 +35,12 @@
     "typescript"
   ],
   "author": "Szavio Petrus Raaum",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
